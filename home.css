@@ -3,7 +3,8 @@ body{
 }
 
 .header {
-    background-color: rgb(55, 56, 58);
+    display: flex;
+    background-image: url("./Imgs/A3.png");
     font-family: fantasy;
     color: #fff;
     width: 100%;
@@ -11,4 +12,25 @@ body{
     padding: 0px;
     text-align: center;
     vertical-align: middle;
+    justify-content: center;
+}
+
+img{
+    height: 20vh;
+    border-radius: 100px;
+}
+
+.menu{
+    display: flex;
+}
+.menu li{
+    padding: 14vh;
+    list-style-type: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(247, 207, 162);
+    font-size: 20px;
+    font-family: serif;
 }
